@@ -85,6 +85,7 @@ export const useChat = () => {
     const resetThread = () => {
         setMessages([]);
         setData({});
+        setError(null);
     };
 
     return {
